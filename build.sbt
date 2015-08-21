@@ -25,10 +25,10 @@ libraryDependencies ++= {
   val sprayV = "1.3.3"
   Seq(
     "io.buildo"           %%  "ingredients-jsend" % "0.3",
-    "io.buildo"           %%  "base"            % "0.4.0",
+    "io.buildo"           %%  "base"            % "0.4.1",
     "io.spray"            %%  "spray-testkit"   % sprayV  % "test",
     "io.spray"            %%  "spray-json"      % "1.3.1",
     "org.scalatest"       %%  "scalatest"       % "2.2.0" % "test",
-    "org.scalamock"       %% "scalamock-scalatest-support" % "3.2" % "test"
+    "org.scalamock"       %%  "scalamock-scalatest-support" % "3.2" % "test"
   )
 }
